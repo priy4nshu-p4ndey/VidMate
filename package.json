@@ -2,9 +2,10 @@
   "name": "vidmate",
   "version": "1.0.0",
   "description": "a functional model with features of youtube+twitter (full-stack)",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
@@ -14,5 +15,8 @@
     "backend"
   ],
   "author": "Priyanshu Pandey",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
